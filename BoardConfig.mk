@@ -39,9 +39,9 @@ BOARD_DATA_FILESYSTEM_OPTIONS := rw
 
 # Recovery
 BOARD_HAS_NO_SELECT_BUTTON := true
-TARGET_PREBUILT_KERNEL := device/samsung/vivalto3mveml3g/wulan17
-TARGET_RECOVERY_INITRC := device/samsung/vivalto3mveml3g/init.rc
-TARGET_RECOVERY_FSTAB := device/samsung/vivalto3mveml3g/recovery.fstab
+TARGET_PREBUILT_KERNEL := device/samsung/twrp_vivalto3mveml3g/wulan17
+TARGET_RECOVERY_INITRC := device/samsung/twrp_vivalto3mveml3g/init.rc
+TARGET_RECOVERY_FSTAB := device/samsung/twrp_vivalto3mveml3g/recovery.fstab
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 DEVICE_RESOLUTION := 480x800
