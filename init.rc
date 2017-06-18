@@ -6,14 +6,13 @@ on early-init
 
 on init
     export PATH /sbin:/vendor/bin:/system/sbin:/system/bin:/system/xbin
-    export LD_LIBRARY_PATH .:/sbin
     export ANDROID_ROOT /system
     export ANDROID_DATA /data
-    export EXTERNAL_STORAGE /external_sd
+    export EXTERNAL_STORAGE /sdcard
 
     symlink /system/etc /etc
 
-    mkdir /external_sd
+    mkdir /sdcard
     mkdir /sdcard1
     mkdir /.system
     mkdir /system
